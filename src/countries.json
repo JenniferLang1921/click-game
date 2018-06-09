@@ -2,73 +2,73 @@
     {
       "id": 1,
       "name": "Antarctica",
-      "url": "./images/Antarctica.jpg"
+      "url": "./countries/Antarctica.jpg"
       
     },
     {
       "id": 2,
       "name": "Australia",
-      "url": "./images/Australia.jpg"
+      "url": "./countries/Australia.jpg"
       
     },
     {
       "id": 3,
       "name": "Canada",
-      "url": "./images/Canada.jpg"
+      "url": "./countries/Canada.jpg"
       
     },
     {
       "id": 4,
       "name": "Chile",
-      "url": "./images/Chile.jpg"
+      "url": "./countries/Chile.jpg"
       
     },
     {
       "id": 5,
       "name": "USA",
-      "url": "./images/USA.jpg"
+      "url": "./countries/USA.jpg"
       
     },
     {
       "id": 6,
       "name": "Indonesia",
-      "url": "./images/Indonesia.jpg"
+      "url": "./countries/Indonesia.jpg"
       
     },
     {
       "id": 7,
       "name": "Japan",
-      "url": "./images/Japan.jpg"
+      "url": "./countries/Japan.jpg"
       
     },
     {
       "id": 8,
       "name": "Mexico",
-      "url": "./images/Mexico.jpg"
+      "url": "./countries/Mexico.jpg"
       
     },
     {
       "id": 9,
       "name": "Morocco",
-      "url": "./images/Morocco.jpg"
+      "url": "./countries/Morocco.jpg"
       
     },
     {
       "id": 10,
       "name": "Namibia",
-      "url": "./images/Namibia.jpg"
+      "url": "./countries/Namibia.jpg"
       
     },
     {
       "id": 11,
       "name": "Russia",
-      "url": "./images/Russia.jpg"
+      "url": "./countries/Russia.jpg"
       
     },
     {
       "id": 12,
       "name": "United Kingdom",
-      "url": "./images/UnitedKingdom.jpg"
+      "url": "./countries/UnitedKingdom.jpg"
       
     }
   ]
