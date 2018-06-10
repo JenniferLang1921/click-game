@@ -1,6 +1,10 @@
 # Travel Around The World In Twelve Clicks
 A React.js memory game
 
+![React Click Game](https://github.com/JenniferLang1921/click-game/blob/master/public/countries/clickgame.png)
+
+
+
 
 
 ## Description
