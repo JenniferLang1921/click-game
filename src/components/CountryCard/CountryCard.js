@@ -1,12 +1,11 @@
 import React from 'react';
-
 import "./CountryCard.css";
 
 const CountryCard = props => (
  
     <div className="card">
       <img
-        className="img-fluid rounded-circle"
+        className="img-fluid"
         onClick={props.onClick}
         src={props.image}
         alt={props.name} />

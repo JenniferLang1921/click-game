@@ -39,7 +39,8 @@ class App extends Component {
       }
       this.setState({score: 0, guessed: [], info: 'Incorrect Guess! You LOSE! Try again!'});
       this.cardShuffler();
-    } else
+    
+    }  else
       this.setState({
         score: (this.state.score + 1),
         info: 'Correct! Guess again!'
