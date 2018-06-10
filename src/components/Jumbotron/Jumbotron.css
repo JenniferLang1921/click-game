@@ -1,25 +1,16 @@
-h3 {
-    text-align: center;
-    color: red;
-    position: fixed;
-    top: 0em;
-    right: 2em;
-    background: white;
-
+h2 {
+    font-size: 3vw;
+    font-style: "Serif";
 }
 
-h4 {
-    text-align: center;
-    color: red;
-    position: fixed;
-    top: 2em;
-    right: 2em;
-    background: white;
 
-}
 
-jumbotron {
 
-    height: 2%;
+
+
+.jumbotron {
+
+   
+    background: yellow !important;
 
 }

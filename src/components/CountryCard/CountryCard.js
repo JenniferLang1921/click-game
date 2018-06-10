@@ -3,7 +3,7 @@ import "./CountryCard.css";
 
 const CountryCard = props => (
  
-    <div className="card">
+    <div className="">
       <img
         className="img-fluid"
         onClick={props.onClick}

@@ -2,33 +2,13 @@ img {
   height: 12em;
   width: 12em;
   border-radius: 50%;
-  margin: 2px;
+  
   
 }
 
-img.firstchild {
-  margin-top: 50em;
-}
-
-h3 {
-  float: right;
-}
 
 
 
-@mixin for-size($size) {
-  @if $size == phone-only {
-    @media (max-width: 599px) { @content; }
-  } @else if $size == tablet-portrait-up {
-    @media (min-width: 600px) { @content; }
-  } @else if $size == tablet-landscape-up {
-    @media (min-width: 900px) { @content; }
-  } @else if $size == desktop-up {
-    @media (min-width: 1200px) { @content; }
-  } @else if $size == big-desktop-up {
-    @media (min-width: 1800px) { @content; }
-  }
-}
 
 
 /*media queries*/
