@@ -11,7 +11,7 @@ A React.js memory game
 
 Around The World Click Game is a game where users try to click each of the pictures only once.  If they click all 12 pictures, they win.  If they click a picture twice, the game starts over. 
 
-Backend Technologies Used:  Node.js, Express, 
+Backend Technologies Used: Babel, Webpack 
 
 Frontend Technologies Used: React.js, Bootstrap, ES6, JSX
 
@@ -20,4 +20,4 @@ Frontend Technologies Used: React.js, Bootstrap, ES6, JSX
  Check out this website Around The World Click Game at https://jenniferlang1921.github.io/click-game/
 
 
-Coded and Designed by Jennifer Lang
+Art and Code by Jennifer Lang

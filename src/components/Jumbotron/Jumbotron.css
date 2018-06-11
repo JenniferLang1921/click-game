@@ -2,11 +2,13 @@
 
 .jumbotron {
 
-   
-    background: yellow !important;
+    background: linear-gradient(yellow, orange)!important;
+    
 
 }
 
 h1 {
+   
     font-family: 'Eater', cursive;
+    text-shadow: 3px 3px black;
 }
