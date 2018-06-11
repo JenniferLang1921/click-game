@@ -33,10 +33,15 @@ class App extends Component {
         id
       ]
     });
+
+
+
+    //if score is greater than top score then make top score the score
     if (this.state.guessed.includes(id)) {
       if (this.state.score > this.state.topScore){
         this.setState({topScore: this.state.score});
       }
+
       this.setState({score: 0, guessed: [], info: 'Incorrect Guess! You LOSE! Try again!'});
       this.cardShuffler();
     
@@ -47,6 +52,7 @@ class App extends Component {
       });
     this.cardShuffler();
   }
+  
 
   render() {
     this.cardShuffler();

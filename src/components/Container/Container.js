@@ -2,7 +2,7 @@ import React from 'react';
 import "./Container.css";
 
 const Container = props => (
-  <div className='container main'>
+  <div className='container center-align main'>
   
     {props.children}
   </div>

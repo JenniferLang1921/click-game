@@ -7,9 +7,9 @@ const Jumbotron = props => (
     
       <div className="container text-center">
         
-      <h2>Travel Around The World In Twelve Clicks</h2>
+      <h1>Monster Memory</h1>
  
-        <p>Click the countries without travelling to the same place twice!</p>
+        <h2>Try to click all of the monster pictures without clicking the same one twice!</h2>
 
         <h3>Score: {props.score} | Top Score: {props.topScore}</h3>
         <h4>{props.info}</h4>
