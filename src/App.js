@@ -13,8 +13,11 @@ class App extends Component {
     score: 0,
     topScore: 0,
     guessed: [],
-    info: 'Click an image to begin guessing!'
+    info: 'Click an image to begin guessing!',
+    win: 'You Win!'
   };
+
+  
 
   componentDidMount() {
     this.setState({cards: countries});
@@ -58,7 +61,8 @@ class App extends Component {
     this.cardShuffler();
     return (
       <div>
-        <Jumbotron
+        <Jumbotron backgroundImage="./countries/rainbow.jpg"
+    
           info={this.state.info}
           score={this.state.score}
           topScore={this.state.topScore}/>

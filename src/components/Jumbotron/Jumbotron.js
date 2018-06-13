@@ -3,19 +3,19 @@ import "./Jumbotron.css";
 
 const Jumbotron = props => (
 
- <div className="jumbotron jumbotron-fluid mt-5">
-    
-      <div className="container text-center">
-        
-      <h1>Monster Memory</h1>
- 
-        <h2>Try to click all of the monster pictures without clicking the same one twice!</h2>
+  <div className="jumbotron jumbotron-fluid text-center" style={{backgroundImage: `url(${props.backgroundImage})`}}>
 
-        <h3>Score: {props.score} | Top Score: {props.topScore}</h3>
-        <h4>{props.info}</h4>
-      </div>
-    
-  </div>
+      <h1><span className="span">Monster Memory</span></h1>
+
+      <h2><span className="span">Try to click all of the monster pictures without clicking the same one twice!</span></h2>
+
+      <h3><span className="span">Score: {props.score} | Top Score: {props.topScore}</span></h3>
+      <h4><span className="span">{props.info}</span></h4>
+    </div>
+
+  
 );
 
-export default Jumbotron;
+
+
+  export default Jumbotron;
