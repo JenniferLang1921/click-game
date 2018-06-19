@@ -37,7 +37,9 @@ class App extends Component {
       ]
     });
 
-
+    if (this.state.cards.length===this.state.guessed.length) {
+      alert ("You Win");
+    }
 
     //if score is greater than top score then make top score the score
     if (this.state.guessed.includes(id)) {
