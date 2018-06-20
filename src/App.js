@@ -37,7 +37,7 @@ class App extends Component {
       ]
     });
 
-    if (this.state.cards.length===this.state.guessed.length) {
+    if (this.state.cards.length===(this.state.guessed.length+1)) {
       alert ("You Win");
     }
 
